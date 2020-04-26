@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[], char *envp[], char *apple[]) {
 
-  printf("argc = %d\n", argc);
+  printf("\nargc = %d\n", argc);
 
   int i = 0;
   while (argv[i]) {
