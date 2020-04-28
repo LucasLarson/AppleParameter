@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "apple.h"
 
 int main(int argc, char *argv[], char *envp[], char *apple[]) {
 
