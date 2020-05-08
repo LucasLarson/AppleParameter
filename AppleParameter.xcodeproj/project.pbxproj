@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D9BDD10E246623CA0016C910 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D9BDD10D246623CA0016C910 /* main.c */; };
+		D9BDD116246628EF0016C910 /* apple.c in Sources */ = {isa = PBXBuildFile; fileRef = D9BDD115246628EE0016C910 /* apple.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		D9BDD10A246623CA0016C910 /* AppleParameter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppleParameter; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9BDD10D246623CA0016C910 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D9BDD114246628EE0016C910 /* apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apple.h; sourceTree = "<group>"; };
+		D9BDD115246628EE0016C910 /* apple.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = apple.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		D9BDD10C246623CA0016C910 /* AppleParameter */ = {
 			isa = PBXGroup;
 			children = (
-				D9BDD10D246623CA0016C910 /* main.c */,
+				D9BDD114246628EE0016C910 /* apple.h */,
+				D9BDD115246628EE0016C910 /* apple.c */,
 			);
 			path = AppleParameter;
 			sourceTree = "<group>";
@@ -119,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9BDD10E246623CA0016C910 /* main.c in Sources */,
+				D9BDD116246628EF0016C910 /* apple.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
