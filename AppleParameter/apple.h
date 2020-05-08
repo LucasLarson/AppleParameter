@@ -1,6 +1,6 @@
-#ifndef APPLEPARAMETER_APPLE_H_
-#define APPLEPARAMETER_APPLE_H_
+#ifndef APPLE_PARAMETER_APPLE_H_
+#define APPLE_PARAMETER_APPLE_H_
 
 int main(int, char *[], char *[], char *[]);
 
-#endif  /* APPLEPARAMETER_APPLE_H_ */
+#endif  /* APPLE_PARAMETER_APPLE_H_ */
