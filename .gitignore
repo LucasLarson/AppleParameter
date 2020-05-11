@@ -45,6 +45,11 @@
 # https://github.com/toptal/gitignore/blob/624452f1f2f3d785ca3b75ac4fe491fc93656c8b/templates/JetBrains.gitignore#L40-L41
 cmake-build-*/
 
+# Xcode
+# https://github.com/github/gitignore/blob/9df8aa603708600507c9ccb8f6e8d566a332e8ff/Global/Xcode.gitignore#L6-L13
+xcuserdata/
+build/
+
 # Executables
 *.exe
 *.out
