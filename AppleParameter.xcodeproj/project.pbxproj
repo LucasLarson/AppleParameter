@@ -267,7 +267,7 @@
 				D9BDD110246623CA0016C910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D9BDD111246623CA0016C910 /* Build configuration list for PBXNativeTarget "AppleParameter" */ = {
 			isa = XCConfigurationList;
@@ -276,7 +276,7 @@
 				D9BDD113246623CA0016C910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
