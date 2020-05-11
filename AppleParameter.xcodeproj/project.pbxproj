@@ -243,6 +243,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z25963JBNP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_WARN_PEDANTIC = YES;
+				OTHER_CFLAGS = (
+					"-pthread",
+					"-Wall",
+					"-Wextra",
+					"-ansi",
+					"-pedantic",
+					"-std=c89",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -253,6 +263,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z25963JBNP;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = c89;
+				GCC_WARN_PEDANTIC = YES;
+				OTHER_CFLAGS = (
+					"-pthread",
+					"-Wall",
+					"-Wextra",
+					"-ansi",
+					"-pedantic",
+					"-std=c89",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
