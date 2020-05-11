@@ -24,7 +24,7 @@
 *.map
 *.exp
 
-# Precompiled Headers
+# Precompiled headers
 *.gch
 *.pch
 
@@ -34,11 +34,16 @@
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+# Shared objects (including Windows DLLs)
 *.dll
 *.so
 *.so.*
 *.dylib
+
+# CMake
+# via @toptal
+# https://github.com/toptal/gitignore/blob/624452f1f2f3d785ca3b75ac4fe491fc93656c8b/templates/JetBrains.gitignore#L40-L41
+cmake-build-*/
 
 # Executables
 *.exe
