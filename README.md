@@ -1,4 +1,8 @@
 # AppleParameter
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/LucasLarson/AppleParameter) 
+[![Gitter chat](https://img.shields.io/badge/Chat-Gitter-blue.svg?label=Chat&logo=gitter&style=flat-square)](https://gitter.im/LucasLarson)&nbsp;
+[![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg?logo=paypal&style=flat-square)](https://www.paypal.me/LucasLars)&nbsp;
+
 ## What is `apple[0]` of `int main()`?
 
 In the C family of languages, there are typically zero or two – or sometimes
