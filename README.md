@@ -2,6 +2,7 @@
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-green?logo=gitpod)](https://gitpod.io/#https://github.com/LucasLarson/AppleParameter) 
 [![Gitter chat](https://img.shields.io/badge/Chat-Gitter-green.svg?label=Chat&logo=gitter&style=flat-square)](https://gitter.im/LucasLarson)&nbsp;
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal&style=flat-square)](https://www.paypal.me/LucasLars)&nbsp;
+[![CodeFactor](https://www.codefactor.io/repository/github/lucaslarson/appleparameter/badge)](https://www.codefactor.io/repository/github/lucaslarson/appleparameter)&nbsp;
 
 ## What is `apple[0]` of `int main()`?
 
