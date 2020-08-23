@@ -5,7 +5,7 @@ if ! [[ "$(uname)" =~ Darwin ]]; then
   printf '
   this software runs on any device with Clang installed, but performs the
   described behavior only on Apple machines.\n. Exiting.\n'
-  return 1
+  exit 1
 fi
 
 # the target machine is a macOS device which more easily performs with Clang
