@@ -1,0 +1,25 @@
+name: C CI
+
+on:
+  push:
+    branches:
+    - main
+    - .*
+  pull_request:
+    branches:
+    - main
+    - .*
+  schedule:
+    - cron: "0 14 * * *"
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: build
+      run: clang --verbose -v -Wall -Wextra -pedantic -g -lm -O0 -integrated-as -pthread -save-stats -save-temps -fcaret-diagnostics -fdiagnostics-fixit-info -fdiagnostics-parseable-fixits -fdiagnostics-print-source-range-info -fdiagnostics-show-option -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug -ftime-report -ftrapv -Wno-unsequenced -Wno-unused-parameter "$(find ${PWD##*/} -iname '*\.c')" -o ${PWD##*/}/${PWD##*/}
+    - name: run
+      run: ./${PWD##*/}/${PWD##*/}
