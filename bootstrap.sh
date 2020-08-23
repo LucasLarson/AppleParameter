@@ -25,7 +25,9 @@ if command -v clang > /dev/null 2>&1; then
 
 else
   printf '
-  No valid Clang installation detected. Please download and install it and then
-  run `./bootstrap.sh` again.\n'
+  No valid Clang installation detected. Please download and install it,
+  and then run the following again:
+
+     ./bootstrap.sh\n\n'
   return 1
 fi
