@@ -63,6 +63,7 @@ excluded_words:
   - slo
   - smod
   - strnlen
+  - unsequenced
   - Wextra
   - Wno
 
