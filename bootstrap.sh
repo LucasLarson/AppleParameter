@@ -3,8 +3,11 @@
 # if not on a machine whose `uname` contains Apple’s nickname “Darwin”
 if ! [[ "$(uname)" =~ Darwin ]]; then
   printf '
-  this software runs on any device with Clang installed, but performs the
-  described behavior only on Apple machines.\n. Exiting.\n'
+  This software runs on any device with Clang
+  installed, but performs the described
+  behavior only on Apple machines.\n  '
+  sleep 1
+  printf 'Exiting.\n'
   exit 1
 fi
 
