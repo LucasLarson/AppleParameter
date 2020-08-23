@@ -18,10 +18,10 @@ if command -v clang > /dev/null 2>&1; then
     -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
     -ftime-report -ftrapv -integrated-as -pthread -save-stats -save-temps \
     -Wno-unsequenced -Wno-unused-parameter \
-    "$(find ${PWD##*/} -iname '*\.c')" \
-    -o ${PWD##*/}/${PWD##*/}
+    "$(find "${PWD##*/}" -iname '*\.c')" \
+    -o "${PWD##*/}/${PWD##*/}"
 
-    ./${PWD##*/}/${PWD##*/}
+    ./"${PWD##*/}/${PWD##*/}"
 
 else
   printf '
