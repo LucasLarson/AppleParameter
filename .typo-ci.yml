@@ -64,6 +64,7 @@ excluded_words:
   - smod
   - strnlen
   - Wextra
+  - Wno
 
   # Git
   - gmv # homemade alias to `git mv`
