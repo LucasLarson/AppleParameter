@@ -24,7 +24,7 @@ if command -v clang > /dev/null 2>&1; then
     "$(find "${PWD##*/}" -iname '*\.c')" \
     -o "${PWD##*/}/${PWD##*/}"
 
-    ./"${PWD##*/}/${PWD##*/}"
+  ./"${PWD##*/}/${PWD##*/}"
 
 else
   printf '
