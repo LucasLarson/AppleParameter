@@ -35,10 +35,14 @@ excluded_words:
   - uncommenting
 
   # Clang, GCC
+  - argc
+  - argv
   - cbp
   - climits
   - cstring
   - dylib
+  - envc
+  - envp
   - fcaret
   - fdiagnostics
   - fdiagnostics-fixit-info
