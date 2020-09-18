@@ -3,9 +3,12 @@
 # if not on a machine whose `uname` contains Apple’s nickname “Darwin”
 if ! [[ "$(uname)" =~ Darwin ]]; then
   printf '
-  this software runs on any device with Clang installed, but performs the
-  described behavior only on Apple machines.\n. Exiting.\n'
-  return 1
+  This software runs on any device with Clang
+  installed, but performs the described
+  behavior only on Apple machines.\n  '
+  sleep 1
+  printf 'Exiting.\n'
+  exit 1
 fi
 
 # the target machine is a macOS device which more easily performs with Clang
@@ -21,7 +24,7 @@ if command -v clang > /dev/null 2>&1; then
     "$(find "${PWD##*/}" -iname '*\.c')" \
     -o "${PWD##*/}/${PWD##*/}"
 
-    ./"${PWD##*/}/${PWD##*/}"
+  ./"${PWD##*/}/${PWD##*/}"
 
 else
   printf '
