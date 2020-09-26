@@ -36,16 +36,21 @@ excluded_words:
   - calibreapp
   - Crashlytics
   - csharp  # CodeQL Analysis
+  - cyberciti  # cyberciti.biz
   - ffs
+  - guillaumealgis  # guillaumealgis/XcodeWarningsAsXcconfig
   - ibiqlik  # ibiqlik/action-yamllint
+  - jonreid  # jonreid/XcodeWarnings
   - LucasLarson
   - Mackup
+  - nixCraft  # Vivek Gite, cyberciti.biz
   - omz  # ohmyzsh
   - peter-evans  # peter-evans/create-pull-request
   - rustup
   - sobolevn  # sobolevn/misspell-fixer-action
   - typoci
   - uncommenting
+  - VivekGite  # nixCraft, cyberciti.biz
 
   # AsciiDoc
   - adoc
@@ -56,12 +61,17 @@ excluded_words:
   - freebsd
 
   # Clang, GCC
+  - argc
+  - argv
   - cbp
   - climits
+  - cplusplus
   - cstring
   - ctor
   - dtor
   - dylib
+  - envc
+  - envp
   - fcaret
   - fdiagnostics
   - fdiagnostics-fixit-info
@@ -133,9 +143,20 @@ excluded_words:
   - tmbundle
 
   # Xcode
+  - bcmp
+  - bcopy
+  - bzero
+  - dealloc
+  - ivars
+  - mpi
+  - optin
   - pbxproj
   - pbxuser
+  - valist
+  - vfork
   - xccheckout
+  - xcconfig
+  - xclang
   - xcrun
   - xcscmblueprint
   - xcsettings
