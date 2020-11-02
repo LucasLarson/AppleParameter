@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update github/super-linter action to v3.13.3 [\#27](https://github.com/LucasLarson/AppleParameter/pull/27) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.2 [\#26](https://github.com/LucasLarson/AppleParameter/pull/26) ([renovate[bot]](https://github.com/apps/renovate))
 - Update ibiqlik/action-yamllint action to v2 [\#24](https://github.com/LucasLarson/AppleParameter/pull/24) ([renovate[bot]](https://github.com/apps/renovate))
 - Update gaurav-nelson/github-action-markdown-link-check action to v1.0.8 [\#23](https://github.com/LucasLarson/AppleParameter/pull/23) ([renovate[bot]](https://github.com/apps/renovate))
