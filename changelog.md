@@ -6,6 +6,8 @@
 
 **Merged pull requests:**
 
+- Update github/super-linter action to v3.13.5 [\#29](https://github.com/LucasLarson/AppleParameter/pull/29) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v2.3.4 [\#28](https://github.com/LucasLarson/AppleParameter/pull/28) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.3 [\#27](https://github.com/LucasLarson/AppleParameter/pull/27) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.2 [\#26](https://github.com/LucasLarson/AppleParameter/pull/26) ([renovate[bot]](https://github.com/apps/renovate))
 - Update ibiqlik/action-yamllint action to v2 [\#24](https://github.com/LucasLarson/AppleParameter/pull/24) ([renovate[bot]](https://github.com/apps/renovate))
