@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update actions/cache action to v2.1.3 [\#32](https://github.com/LucasLarson/AppleParameter/pull/32) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.5 [\#29](https://github.com/LucasLarson/AppleParameter/pull/29) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/checkout action to v2.3.4 [\#28](https://github.com/LucasLarson/AppleParameter/pull/28) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.3 [\#27](https://github.com/LucasLarson/AppleParameter/pull/27) ([renovate[bot]](https://github.com/apps/renovate))
