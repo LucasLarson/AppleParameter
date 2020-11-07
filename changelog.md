@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- replace Markdown GNU GPL v3 with AsciiDoc [\#34](https://github.com/LucasLarson/AppleParameter/pull/34) ([LucasLarson](https://github.com/LucasLarson))
 - Update actions/cache action to v2.1.3 [\#32](https://github.com/LucasLarson/AppleParameter/pull/32) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.13.5 [\#29](https://github.com/LucasLarson/AppleParameter/pull/29) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/checkout action to v2.3.4 [\#28](https://github.com/LucasLarson/AppleParameter/pull/28) ([renovate[bot]](https://github.com/apps/renovate))
