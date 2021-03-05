@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Update github/super-linter action to v3.15.2 [\#45](https://github.com/LucasLarson/AppleParameter/pull/45) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.15.1 [\#44](https://github.com/LucasLarson/AppleParameter/pull/44) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/setup-ruby action to v1.1.3 [\#43](https://github.com/LucasLarson/AppleParameter/pull/43) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/cache action to v2.1.4 [\#42](https://github.com/LucasLarson/AppleParameter/pull/42) ([renovate[bot]](https://github.com/apps/renovate))
