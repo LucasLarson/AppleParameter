@@ -55,7 +55,7 @@
 **Merged pull requests:**
 
 - add `yamllint` workflow [\#12](https://github.com/LucasLarson/AppleParameter/pull/12) ([LucasLarson](https://github.com/LucasLarson))
-- add `GITHUB\_TOKEN` to GitHub Super-Linter [\#11](https://github.com/LucasLarson/AppleParameter/pull/11) ([LucasLarson](https://github.com/LucasLarson))
+- add `GITHUB_TOKEN` to GitHub Super-Linter [\#11](https://github.com/LucasLarson/AppleParameter/pull/11) ([LucasLarson](https://github.com/LucasLarson))
 - add bootstrap executable [\#10](https://github.com/LucasLarson/AppleParameter/pull/10) ([LucasLarson](https://github.com/LucasLarson))
 
 ## [v0.3.0](https://github.com/LucasLarson/AppleParameter/tree/v0.3.0) (2020-07-15)
