@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/LucasLarson/AppleParameter/compare/v0.3.2...HEAD)
 
+**Implemented enhancements:**
+
+- set dependencies to major semver versions where possible [\#60](https://github.com/LucasLarson/AppleParameter/pull/60) ([LucasLarson](https://github.com/LucasLarson))
+
 **Merged pull requests:**
 
 - Update github/super-linter action to v3.15.3 [\#46](https://github.com/LucasLarson/AppleParameter/pull/46) ([renovate[bot]](https://github.com/apps/renovate))
