@@ -6,6 +6,7 @@
 
 **Implemented enhancements:**
 
+- upgrade from Bash to Bourne shell script [\#61](https://github.com/LucasLarson/AppleParameter/pull/61) ([LucasLarson](https://github.com/LucasLarson))
 - set dependencies to major semver versions where possible [\#60](https://github.com/LucasLarson/AppleParameter/pull/60) ([LucasLarson](https://github.com/LucasLarson))
 
 **Fixed bugs:**
