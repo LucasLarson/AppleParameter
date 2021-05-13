@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 # if not on a machine whose `uname` contains Apple’s nickname “Darwin”
-if ! [[ "$(uname)" =~ Darwin ]]; then
+if [ "$(uname)" != Darwin ]; then
   printf '
   This software runs on any device with Clang
   installed, but performs the described
@@ -13,7 +13,7 @@ fi
 
 # the target machine is a macOS device which more easily performs with Clang
 # than with GCC
-if command -v clang > /dev/null 2>&1; then
+if command -v clang >/dev/null 2>&1; then
 
   clang --verbose -v -Wall -Wextra -pedantic -g -lm -O0 -fcaret-diagnostics \
     -fdiagnostics-fixit-info -fdiagnostics-parseable-fixits \
@@ -21,14 +21,14 @@ if command -v clang > /dev/null 2>&1; then
     -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
     -ftime-report -ftrapv -integrated-as -pthread -save-stats -save-temps \
     -Wno-unsequenced -Wno-unused-parameter \
-    "$(find "${PWD##*/}" -iname '*\.c')" \
+    "$(find -- * -iname '*.c')" \
     -o "${PWD##*/}/${PWD##*/}"
 
   ./"${PWD##*/}/${PWD##*/}"
 
 else
   printf '
-  No valid Clang installation detected. Please download and install it,
+  No valid Clang installation detected. Please install it,
   and then run the following again:
 
      ./bootstrap.sh\n\n'
