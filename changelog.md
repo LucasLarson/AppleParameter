@@ -8,6 +8,15 @@
 
 - set dependencies to major semver versions where possible [\#60](https://github.com/LucasLarson/AppleParameter/pull/60) ([LucasLarson](https://github.com/LucasLarson))
 
+**Fixed bugs:**
+
+- share full repository history with @GitHub Super-Linter [\#63](https://github.com/LucasLarson/AppleParameter/pull/63) ([LucasLarson](https://github.com/LucasLarson))
+- replace deprecated `actions/setup-ruby` with `ruby/setup-ruby` \(fix \#53\) [\#62](https://github.com/LucasLarson/AppleParameter/pull/62) ([LucasLarson](https://github.com/LucasLarson))
+
+**Closed issues:**
+
+- `actions/setup-ruby` is deprecated [\#53](https://github.com/LucasLarson/AppleParameter/issues/53)
+
 **Merged pull requests:**
 
 - Update github/super-linter action to v3.15.3 [\#46](https://github.com/LucasLarson/AppleParameter/pull/46) ([renovate[bot]](https://github.com/apps/renovate))
