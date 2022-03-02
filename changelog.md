@@ -20,6 +20,7 @@
 
 **Merged pull requests:**
 
+- bump actions/checkout from v2 to v3 [\#67](https://github.com/LucasLarson/AppleParameter/pull/67) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Update github/super-linter action to v4 [\#64](https://github.com/LucasLarson/AppleParameter/pull/64) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.15.3 [\#46](https://github.com/LucasLarson/AppleParameter/pull/46) ([renovate[bot]](https://github.com/apps/renovate))
 - Update github/super-linter action to v3.15.2 [\#45](https://github.com/LucasLarson/AppleParameter/pull/45) ([renovate[bot]](https://github.com/apps/renovate))
