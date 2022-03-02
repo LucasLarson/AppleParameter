@@ -28,6 +28,6 @@ jobs:
           -fdiagnostics-print-source-range-info -fdiagnostics-show-option \
           -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
           -ftime-report -ftrapv -Wno-unsequenced -Wno-unused-parameter \
-          "$(command find ${PWD##*/} -iname '*\.c')" -o ${PWD##*/}/${PWD##*/}
+          "$(command find "${PWD##*/}" -iname '*\.c')" -o "${PWD##*/}"'/'"${PWD##*/}"
       - name: run
-        run: ./${PWD##*/}/${PWD##*/}
+        run: './'"${PWD##*/}"'/'"${PWD##*/}"
