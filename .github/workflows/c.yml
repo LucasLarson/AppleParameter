@@ -22,12 +22,12 @@ jobs:
       - uses: actions/checkout@v3
       - name: build
         run: |
-          clang --verbose -v -Wall -Wextra -pedantic -g -lm -O0 -integrated-as \
-          -pthread -save-stats -save-temps -fcaret-diagnostics \
+          command clang --verbose -v -Wall -Wextra -pedantic -g -lm -O0 \
+          -integrated-as -pthread -save-stats -save-temps -fcaret-diagnostics \
           -fdiagnostics-fixit-info -fdiagnostics-parseable-fixits \
           -fdiagnostics-print-source-range-info -fdiagnostics-show-option \
           -fno-builtin -fshow-column -fshow-source-location -fstandalone-debug \
           -ftime-report -ftrapv -Wno-unsequenced -Wno-unused-parameter \
-          "$(find ${PWD##*/} -iname '*\.c')" -o ${PWD##*/}/${PWD##*/}
+          "$(command find ${PWD##*/} -iname '*\.c')" -o ${PWD##*/}/${PWD##*/}
       - name: run
         run: ./${PWD##*/}/${PWD##*/}
