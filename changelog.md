@@ -20,6 +20,7 @@
 
 **Merged pull requests:**
 
+- bump github/codeql-action from v1 to v2 [\#71](https://github.com/LucasLarson/AppleParameter/pull/71) ([renovate[bot]](https://github.com/apps/renovate))
 - bump `actions/cache` action from v2 to v3 [\#69](https://github.com/LucasLarson/AppleParameter/pull/69) ([renovate[bot]](https://github.com/apps/renovate))
 - bump actions/checkout from v2 to v3 [\#67](https://github.com/LucasLarson/AppleParameter/pull/67) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Update github/super-linter action to v4 [\#64](https://github.com/LucasLarson/AppleParameter/pull/64) ([renovate[bot]](https://github.com/apps/renovate))
