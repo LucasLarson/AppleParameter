@@ -11,6 +11,7 @@
 
 **Fixed bugs:**
 
+- `git.io` deprecation [\#73](https://github.com/LucasLarson/AppleParameter/issues/73)
 - share full repository history with @GitHub Super-Linter [\#63](https://github.com/LucasLarson/AppleParameter/pull/63) ([LucasLarson](https://github.com/LucasLarson))
 - replace deprecated `actions/setup-ruby` with `ruby/setup-ruby` \(fix \#53\) [\#62](https://github.com/LucasLarson/AppleParameter/pull/62) ([LucasLarson](https://github.com/LucasLarson))
 
@@ -20,6 +21,7 @@
 
 **Merged pull requests:**
 
+- remove `git.io` links \(fix \#73\) [\#74](https://github.com/LucasLarson/AppleParameter/pull/74) ([LucasLarson](https://github.com/LucasLarson))
 - bump github/codeql-action from v1 to v2 [\#71](https://github.com/LucasLarson/AppleParameter/pull/71) ([renovate[bot]](https://github.com/apps/renovate))
 - bump `actions/cache` action from v2 to v3 [\#69](https://github.com/LucasLarson/AppleParameter/pull/69) ([renovate[bot]](https://github.com/apps/renovate))
 - bump actions/checkout from v2 to v3 [\#67](https://github.com/LucasLarson/AppleParameter/pull/67) ([dependabot[bot]](https://github.com/apps/dependabot))
