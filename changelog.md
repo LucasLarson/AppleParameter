@@ -21,6 +21,7 @@
 
 **Merged pull requests:**
 
+- bump github/codeql-action from v2 to v3 [\#81](https://github.com/LucasLarson/AppleParameter/pull/81) ([renovate[bot]](https://github.com/apps/renovate))
 - repair changelog workflow syntax [\#75](https://github.com/LucasLarson/AppleParameter/pull/75) ([LucasLarson](https://github.com/LucasLarson))
 - remove `git.io` links \(fix \#73\) [\#74](https://github.com/LucasLarson/AppleParameter/pull/74) ([LucasLarson](https://github.com/LucasLarson))
 - bump github/codeql-action from v1 to v2 [\#71](https://github.com/LucasLarson/AppleParameter/pull/71) ([renovate[bot]](https://github.com/apps/renovate))
