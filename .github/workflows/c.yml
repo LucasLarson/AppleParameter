@@ -19,7 +19,7 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
       - name: build
         run: |
           command clang --verbose -v -Wall -Wextra -pedantic -g -lm -O0 \
